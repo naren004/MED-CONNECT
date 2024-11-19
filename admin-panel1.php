@@ -274,7 +274,7 @@ if(isset($_POST['docsub1']))
                 </thead>
                 <tbody>
                   <?php 
-                    $con=mysqli_connect("localhost","root","","myhmsdb");
+                    $con=mysqli_connect("localhost","root","4245","myhmsdb");
                     global $con;
                     $query = "select * from doctb";
                     $result = mysqli_query($con,$query);
